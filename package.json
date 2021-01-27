@@ -1,0 +1,15 @@
+{
+  "name": "RabbitMQ",
+  "version": "1.0.0",
+  "description": "The main objective of the project is to work with work queues in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node jobs.js"
+  },
+  "author": "Rosival de Souza",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.6.0"
+  }
+}
